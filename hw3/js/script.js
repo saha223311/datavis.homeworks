@@ -45,14 +45,6 @@ d3.csv('data/netflix.csv').then(data=>{
     radius.domain([d3.min(rating), d3.max(rating)])
     x.domain([d3.min(years), d3.max(years)]);
     
-    // Part 1 - создайте circles на основе data
-    // var nodes = bubble
-    //     .selectAll("circle")
-        // ..
-    // добавьте обработчики событий mouseover и mouseout
-            // .on('mouseover', overBubble)
-            // .on('mouseout', outOfBubble);
-    
     function ticked() {
         var nodes = bubble
             .selectAll('circle')
@@ -87,11 +79,6 @@ d3.csv('data/netflix.csv').then(data=>{
     arc_generator = d3.arc().innerRadius(150).outerRadius(250)
     
     // Part 1 - постройте donut chart внутри donut
-    // ..
-
-    // добавьте обработчики событий mouseover и mouseout
-        //.on('mouseover', overArc)
-        //.on('mouseout', outOfArc);
     
     donut
     .selectAll('whatever')
