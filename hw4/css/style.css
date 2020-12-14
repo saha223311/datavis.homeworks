@@ -4,7 +4,7 @@ body{
 }
 #year{
     position: absolute;
-    bottom: 50%; left: 10px;
+    bottom: 80%; left: 10px;
     font-size: 70px;
 }
 #menu{
@@ -21,7 +21,7 @@ body{
 }
 #country{
     position: absolute;
-    bottom: 40%; left: 10px;
+    bottom: 30%; left: 10px;
     font-size: 50px;
 }
 rect{
